@@ -30,16 +30,14 @@ p{
     color: var(--secondary-color)
 }
 
-.social_media a {
-    text-decoration: none;
-}
-
-body{
-    max-width: 100vw;
-}
-
 .hero{
     position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1{
@@ -57,12 +55,6 @@ body{
     opacity: 0.7;
 }
 
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .hero article .img_hero {
     float: right;
     width: 20%;
@@ -71,4 +63,136 @@ body{
 
 .hero article p {
     float: left;
+}
+
+
+
+                                    /* About Us - Header */
+
+
+
+header{
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+}
+
+.header_img{
+    display: flex;
+    justify-content: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li{
+    background-color: lightgray;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+
+
+
+                                        /*History Section*/
+
+
+                
+.history_section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    margin: 1rem;
+}
+
+.history_section h2{
+    grid-column: 1/4;
+    text-align: center;
+    margin: 1rem ;
+}
+
+.description_1, .description_2 {
+    margin: 0 2rem;
+
+}
+
+
+
+
+
+
+                                    /*Adventures Section*/
+
+
+
+
+.adventures{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2rem;
+}                                    
+
+.adventures h2{
+    grid-column: 1/6;
+    text-align: center;
+    margin: 2rem;
+}
+
+.adventures figure{
+    width: 180px;
+    height: 180px;
+}
+
+.adventures img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+                                        /*Footer Section*/
+
+
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: right;
+    background-color: #505033;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.social_media img{
+    width: 32px;
+    height: auto;
+    margin: 0px 5px;
+    color: white;
 }

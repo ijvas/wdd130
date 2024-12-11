@@ -15,14 +15,16 @@
 <body>
 
     <header>
-
-        <img src="images/logo.jpg" alt="Company Logo">
-
+        <div class="header_img">
+            <img src="images/logo.jpg" alt="Company Logo">
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
 
     </header>
@@ -38,6 +40,8 @@
 
             <article>
 
+                <h2>Our clients</h2>
+                
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ullam optio iusto quibusdam ab minima repudiandae beatae numquam! Atque, possimus corrupti tempora quidem iusto excepturi impedit nesciunt fuga pariatur voluptatum.
                 </p>
@@ -48,20 +52,50 @@
 
         </div>
 
-        <section>
+        <section class="history_section">
+
             <h2>History</h2>
-            <p>
+
+            <p class="description_1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
+            </p>
+
+            <img src="images/calm-river.jpg" alt="">
+
+            <p class="description_2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam fuga sed dolorum doloremque aliquid eos ducimus aut, natus fugit, ipsum impedit, nisi maxime quam assumenda voluptatum quos? Nulla, natus.
             </p>
         </section>
 
-        <section>
+        <section class="adventures">
+
             <h2>Adventure Awaits You!</h2>
-            <img src="images/calm-river.jpg" alt="">
-            <img src="images/calm_rafting.jpg" alt="">
-            <img src="images/narrowed_river.jpg" alt="">
-            <img src="images/rafting.jpg" alt="">
-            <img src="images/happy_face.jpg" alt="">
+            
+            <figure>
+                <img src="images/calm_rafting.jpg" alt="">
+                <figcaption>Calm Rafting adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/narrowed_river.jpg" alt="">
+                <figcaption>Narrowed River adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/calm-river.jpg" alt="">
+                <figcaption>Calm River adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting.jpg" alt="">
+                <figcaption>Rapids adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy_face.jpg" alt="">
+                <figcaption>Our clients face!</figcaption>
+            </figure>
+
         </section>
 
     </main>
