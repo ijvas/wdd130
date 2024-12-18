@@ -64,6 +64,61 @@ p{
 .hero article p {
     float: left;
 }
+                                            /*HOME*/
+
+.index_hero{
+    background-image: url(../images/index_hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: auto;
+    height: 100vh;
+}
+
+.index_hero h1{
+    color: white;
+}
+
+.trips{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .10fr 1fr .10fr;
+    margin-bottom: 4rem;
+}
+
+.trips h2{
+    grid-column: 1/2;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+}
+
+.trips .trips_images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trips img{
+    width: 400px;
+    height: auto;
+}
+
+.trip_button{
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.index_newsletter{
+    margin-top: 2rem;
+    text-align: center;
+    background-color: beige;
+    padding: 3rem 0;
+}
+
+.index_newsletter form{
+    margin-top: 1rem;
+}
+
 
 
 
@@ -282,6 +337,5 @@ form{
 }
 
 footer .wireframe{
-    text-align: start;
-    color: white;
+    text-align: start;;
 }
