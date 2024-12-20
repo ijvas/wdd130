@@ -371,8 +371,104 @@ form{
 }
 
 footer .wireframe{
-    text-align: start;;
+    text-align: start;
+    color: white;
 }
+
+
+
+
+
+/*Trips page*/
+
+
+
+.trips_hero{
+    background-image: url(../images/hero_trips.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: auto;
+    height: 90vh;
+    position: relative;
+}
+
+.trips_hero h1{
+    position: absolute;
+    color: white;
+    top: 40vh;
+    left: 15vw;
+    right: 10vw;
+    text-shadow: -1px 2px 3px black;
+}
+
+.book_now{
+    display: flex;
+    flex-direction: column; 
+    margin: 10vh 10vw 10vh 10vw;
+}
+
+.book_now p{
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.book_now_button{
+    padding: 10px;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+}
+
+.book_now_button:hover{
+    background-color: var(--primary-color);
+}
+
+.book_now_button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.book_now_line{
+    width: 75vw;
+    margin: 4rem auto 0 ;
+}
+
+.riggins_1-2day, .riggins_1day, .gorge_3day{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.riggins_1-2day div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.riggins_1day div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gorge_3day div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wireframe{
+    text-align: start;
+    color: white;
+}
+
 
 body, h2, h3, h4, h5, h6, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
